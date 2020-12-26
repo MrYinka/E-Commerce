@@ -32,6 +32,8 @@ exports.create = async (req, res) => {
     }
 
     const newCategory = await new Category(req.body);
+
+
     await newCategory.save((err, data) => {
        if(err){
            return res.status(400).json({
