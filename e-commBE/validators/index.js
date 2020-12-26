@@ -67,3 +67,17 @@ exports.userSignInValidator = (req, res, next) => {
     //Proceed to next middleware
     next();
 };
+
+exports.categoryName = (req, res, next) => {
+    //Category name validator
+    req.check('name', 'Category name is required').notEmpty();
+
+    const errors = req.validationErrors();
+    //Show errors as they appear
+    if(errors){
+        const firstError = errors.map((error) => error.msg)[0];
+        return  res.status(400).json({error: firstError});
+    }
+    //Proceed to next middleware
+    next();
+};
