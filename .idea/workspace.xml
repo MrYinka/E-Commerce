@@ -1,25 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e48ae2d7-3ffe-4ce4-87ba-dbfcc66c2d08" name="Default Changelist" comment="User Routes Added">
-      <change afterPath="$PROJECT_DIR$/e-commBE/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commBE/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commBE/controllers/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commBE/controllers/category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commBE/controllers/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commBE/controllers/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commBE/helpers/dbErrorHandler.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commBE/models/category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commBE/models/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commBE/models/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commBE/routes/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commBE/routes/category.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commBE/routes/product.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commBE/routes/user.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/e-commBE/validators/index.js" afterDir="false" />
+    <list default="true" id="e48ae2d7-3ffe-4ce4-87ba-dbfcc66c2d08" name="Default Changelist" comment="NodeAPI Completed!">
+      <change afterPath="$PROJECT_DIR$/ecommfe/.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/Routes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/auth/AdminRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/auth/PrivateRoute.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/auth/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/Layout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/Menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/user/AdminDashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/user/Signin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/user/Signup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/user/UserDashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-commBE/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/e-commBE/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-commBE/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/e-commBE/controllers/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/e-commBE/controllers/auth.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,9 @@
       <updated>1608167016400</updated>
       <workItem from="1608167017554" duration="149000" />
       <workItem from="1608167177253" duration="3734000" />
-      <workItem from="1608240940549" duration="27683000" />
+      <workItem from="1608240940549" duration="28734000" />
+      <workItem from="1608504003602" duration="603000" />
+      <workItem from="1608910058006" duration="22468000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1608167365696</created>
@@ -89,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608169807877</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="NodeAPI Completed!">
+      <created>1608337316384</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608337316384</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -110,6 +116,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit" />
     <MESSAGE value="User Routes Added" />
-    <option name="LAST_COMMIT_MESSAGE" value="User Routes Added" />
+    <MESSAGE value="NodeAPI Completed!" />
+    <option name="LAST_COMMIT_MESSAGE" value="NodeAPI Completed!" />
   </component>
 </project>
