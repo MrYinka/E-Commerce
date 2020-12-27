@@ -59,10 +59,17 @@ const AddCategory = () => {
         }
     };
 
+    const goBack = () => (
+        <div className="mb-5">
+            <Link to="/admin/dashboard" className="text-warning">Back to Dashboard</Link>
+        </div>
+    );
+
 
 
     return (
         <Layout title="Add a New Category" description="Product's Category" className="container col-md-4 offset-md-4">
+            {goBack()}
             {showSuccess()}
             {showError()}
             {newCategoryForm()}

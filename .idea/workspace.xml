@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e48ae2d7-3ffe-4ce4-87ba-dbfcc66c2d08" name="Default Changelist" comment="Authentication Completed!">
-      <change afterPath="$PROJECT_DIR$/ecommfe/src/admin/AddCategory.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommfe/src/admin/apiAdmin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/admin/AddProduct.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/Card.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/ShowImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/apiCore.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-commBE/controllers/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/e-commBE/controllers/category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-commBE/models/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/e-commBE/models/category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-commBE/routes/category.js" beforeDir="false" afterPath="$PROJECT_DIR$/e-commBE/routes/category.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/e-commBE/validators/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/e-commBE/validators/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommfe/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/Routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommfe/src/admin/AddCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/admin/AddCategory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommfe/src/admin/apiAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/admin/apiAdmin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommfe/src/core/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/core/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommfe/src/core/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/core/Layout.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -43,7 +47,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
