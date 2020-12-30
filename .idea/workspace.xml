@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e48ae2d7-3ffe-4ce4-87ba-dbfcc66c2d08" name="Default Changelist" comment="Authentication Completed!">
-      <change afterPath="$PROJECT_DIR$/ecommfe/src/admin/AddProduct.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/Card.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/ShowImage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/apiCore.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommfe/src/styles.css" afterDir="false" />
+    <list default="true" id="e48ae2d7-3ffe-4ce4-87ba-dbfcc66c2d08" name="Default Changelist" comment="Category Page Created!">
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/Checkbox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/RadioBox.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/Shop.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/fixedPrices.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommfe/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommfe/src/admin/AddCategory.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/admin/AddCategory.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommfe/src/admin/apiAdmin.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/admin/apiAdmin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommfe/src/core/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/core/Home.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommfe/src/core/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/core/Layout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommfe/src/core/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/core/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommfe/src/core/apiCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/core/apiCore.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -106,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609018146866</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Category Page Created!">
+      <created>1609106585152</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609106585152</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +133,7 @@
     <MESSAGE value="User Routes Added" />
     <MESSAGE value="NodeAPI Completed!" />
     <MESSAGE value="Authentication Completed!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Authentication Completed!" />
+    <MESSAGE value="Category Page Created!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Category Page Created!" />
   </component>
 </project>
