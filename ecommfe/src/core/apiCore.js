@@ -26,7 +26,7 @@ export const getCategories = () => {
         })
 };
 
-export const getFilteredProducts = (skip, limit, filter = {}) => {
+export const getFilteredProducts = (skip, limit, filters = {}) => {
 
     const data = {
         limit, skip, filters

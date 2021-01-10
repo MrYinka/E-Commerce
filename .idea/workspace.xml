@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e48ae2d7-3ffe-4ce4-87ba-dbfcc66c2d08" name="Default Changelist" comment="Category Page Created!">
-      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/Checkbox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/RadioBox.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/Shop.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ecommfe/src/core/fixedPrices.js" afterDir="false" />
+    <list default="true" id="e48ae2d7-3ffe-4ce4-87ba-dbfcc66c2d08" name="Default Changelist" comment="Shop Page Created!">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommfe/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ecommfe/src/core/Menu.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/core/Menu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommfe/src/core/Card.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/core/Card.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommfe/src/core/Checkbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/core/Checkbox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommfe/src/core/RadioBox.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/core/RadioBox.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommfe/src/core/Shop.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/core/Shop.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ecommfe/src/core/apiCore.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/core/apiCore.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommfe/src/core/fixedPrices.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecommfe/src/core/fixedPrices.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +66,8 @@
       <workItem from="1608240940549" duration="28734000" />
       <workItem from="1608504003602" duration="603000" />
       <workItem from="1608910058006" duration="29294000" />
+      <workItem from="1609477613707" duration="8799000" />
+      <workItem from="1609836709918" duration="5917000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit">
       <created>1608167365696</created>
@@ -110,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609106585152</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Shop Page Created!">
+      <created>1609320223013</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609320223013</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +142,7 @@
     <MESSAGE value="NodeAPI Completed!" />
     <MESSAGE value="Authentication Completed!" />
     <MESSAGE value="Category Page Created!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Category Page Created!" />
+    <MESSAGE value="Shop Page Created!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Shop Page Created!" />
   </component>
 </project>

@@ -33,19 +33,21 @@ const Shop = () => {
         // console.log(newFilters)
         getFilteredProducts(skip, limit, newFilters)
             .then(data => {
-            if(data.error){
-                setError(data.error)
-            }else{
-                setFilteredResults(data);
-            }
-        })
+                if(data.error){
+                    setError(data.error)
+                }else{
+                    setFilteredResults(data.data);
+                }
+            })
     };
 
 
     useEffect(()=> {
         init();
-        // loadFilteredResults(skip, limit, myFilters.filters);
+        loadFilteredResults(skip, limit, myFilters.filters);
     }, []);
+
+
 
 
     //filters ~ Array of category ID's, filterBy ~ Array of categories or prices
@@ -59,7 +61,7 @@ const Shop = () => {
             newFilters.filters[filterBy] = priceValues;
         }
 
-        loadFilteredResults(myFilters.filters);
+        loadFilteredResults(skip, limit, myFilters.filters);
 
         setMyFilters(newFilters);
     };
@@ -81,6 +83,8 @@ const Shop = () => {
 
 
 
+
+
     return (
         <Layout title="Shop Page" description="Search and find books of your choice" className="container">
 
@@ -88,16 +92,22 @@ const Shop = () => {
                 <div className="col-md-4">
                     <h4>Filter By Category</h4>
                    <ul>
-                       <Checkbox categories={categories}  handleFilters ={filters => handleFilters(filters, 'category')} />
+                       <Checkbox categories={categories}  handleFilters={filters => handleFilters(filters, 'category')} />
                    </ul>
 
                     <h4>Filter By Price Range</h4>
                     <div>
-                        <RadioBox prices={prices}  handleFilters ={filters => handleFilters(filters, 'price')} />
+                        <RadioBox prices={prices}  handleFilters={filters => handleFilters(filters, 'price')} />
                     </div>
                 </div>
                 <div className="col-md-8">
-                    {JSON.stringify(filteredResults)}
+                    <h2 className="mb-4">Products</h2>
+                    <div className="row">
+                        {filteredResults.map((product, i) => (
+                                <Card key={i} product={product}/>
+                        ))}
+
+                    </div>
                 </div>
             </div>
 
@@ -109,4 +119,4 @@ const Shop = () => {
 
 
 
-export default Shop
+export default Shop;

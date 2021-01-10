@@ -16,17 +16,18 @@ const Checkbox = ({ categories, handleFilters }) => {
         //if current check doesn't exist in the state, push
         //else pull/take off
 
-        if(currentCategoryId === -1){
+        if(currentCategoryId === -1){ // if it doesn't exist, we push
             newlyCheckedCategoryId.push(c)
-        }else{
+        }else{ //if it does exist, we splice or remove
             newlyCheckedCategoryId.splice(currentCategoryId, 1);
         }
 
         // console.log(newlyCheckedCategoryId);
-
         setChecked(newlyCheckedCategoryId);
+
+        //Sending the array of category IDs to the parent component
         handleFilters(newlyCheckedCategoryId);
-    }
+    };
 
     return categories.map((c, i) => (
         <li className="list-unstyled" key={i}>
